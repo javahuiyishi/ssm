@@ -35,7 +35,6 @@ public class MainController {
         if (!file.isEmpty()) {
             //上传文件路径
             String path = request.getServletContext().getRealPath("/images/");
-
             System.out.println(path);
             //上传文件名
             String filename = file.getOriginalFilename();
