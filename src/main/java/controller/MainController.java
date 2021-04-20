@@ -33,8 +33,6 @@ public class MainController {
                          @RequestParam("file") MultipartFile file) throws Exception {
         //如果文件不为空，写入上传路径
         if (!file.isEmpty()) {
-
-
             //上传文件路径
             String path = request.getServletContext().getRealPath("/images/");
 
